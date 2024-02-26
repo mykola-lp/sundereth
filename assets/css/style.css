@@ -1,3 +1,84 @@
 /*==============================================================
-  # General
+  # Variables.
 ==============================================================*/
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --firebrick: #B22222;
+  --powderblue: #B0E0E6;
+  --lightskyblue: #87CEFA;
+}
+
+/*==============================================================
+  # General.
+==============================================================*/
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--black);
+}
+
+a {
+  color: var(--firebrick);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e82d2d;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*==============================================================
+  # Top Bar.
+==============================================================*/
+#top-bar {
+  background: #191919;
+  font-size: 15px;
+  height: 40px;
+  padding: 0;
+  color: var(--lightskyblue);
+}
+
+#top-bar .contact-info a {
+  line-height: 0;
+  color: var(--lightskyblue);
+  transition: 0.3s;
+}
+
+#top-bar .contact-info a:hover {
+  color: var(--white);
+}
+
+#top-bar .contact-info i {
+  color: var(--firebrick);
+  line-height: 0;
+  margin-right: 5px;
+}
+
+#top-bar .contact-info .phone-icon {
+  margin-left: 15px;
+}
+
+#top-bar .social-links a {
+  color: var(--powderblue);
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#top-bar .social-links a:hover {
+  color: var(--white);
+}
